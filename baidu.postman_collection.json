@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "1269245d-7bc2-4f89-89ff-aec480172817",
+		"name": "百度登录",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "baidu",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"mobile\":\"13800000002\", \r\n\"password\":\"123456\"}"
+				},
+				"url": {
+					"raw": "www.baidu.com",
+					"host": [
+						"www",
+						"baidu",
+						"com"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
